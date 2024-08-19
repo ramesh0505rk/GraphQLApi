@@ -13,7 +13,7 @@ namespace GraphQLApi.GraphQL
         private List<Student> _students = new List<Student>()
         {
             new Student(){RollNo=039,Name="Ramz",Dept="MCA",Cgpa=8.5f},
-            new Student(){RollNo=040,Name="Ramya",Dept="MCA",Cgpa=8.7f}
+            new Student(){RollNo=040,Name="Rama",Dept="MCA",Cgpa=8.7f}
         };
 
         public IEnumerable<Book> GetBooks() => _books;
