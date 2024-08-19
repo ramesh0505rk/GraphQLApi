@@ -9,6 +9,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddGraphQLServer()
     .AddQueryType<Query>()
+    .AddMutationType<Mutation>()
     .AddType<Book>()
     .AddType<Student>();
 

@@ -4,7 +4,7 @@ namespace GraphQLApi.GraphQL
 {
     public class Query
     {
-        private List<Book> _books = new List<Book>()
+        public static List<Book> _books = new List<Book>()
         {
             new Book(){Id=1,Title="Dooms Day",Author="Stan Lee"},
             new Book(){Id=2,Title="Justice League",Author="Kevin"}
