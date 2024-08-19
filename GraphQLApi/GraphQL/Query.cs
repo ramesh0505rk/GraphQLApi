@@ -7,7 +7,7 @@ namespace GraphQLApi.GraphQL
         private List<Book> _books = new List<Book>()
         {
             new Book(){Id=1,Title="Secret Wars",Author="Stan Lee"},
-            new Book(){Id=2,Title="Dawn of Justice",Author="Kevin"}
+            new Book(){Id=2,Title="Justice League",Author="Kevin"}
         };
 
         private List<Student> _students = new List<Student>()
